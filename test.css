@@ -1,5 +1,12 @@
+/*rounded borders */
+/*link background color*/
+/*opacity of background*/
+/*Link Borders*/
+/*small caps*/
+
 #Header {
-	border: solid 8px black;
+	border: solid 8px #FFBC00;
+	border-radius: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
@@ -9,7 +16,8 @@
 }
 
 #LeftNav {
-	border:solid 8px black;
+	border:solid 8px #FFBC00;
+	border-radius: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
@@ -20,17 +28,19 @@
 }
 
 #Content {
-	border:solid 8px black;
+	border:solid 8px #FFBC00;
+	border-radius: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	width: 700px;
 	text-align: center;
-	padding: 15px
+	padding: 15px;
 }
 
 #Footer {
-	border: solid 8px black;
+	border: solid 8px #FFBC00;
+	border-radius: 50px;
 	text-align: center;
 }
 
@@ -49,6 +59,8 @@ ul {
 p {
 	color: white;
 	font-family: arial;
+	font-variant: small-caps;
+
 }
 
 h3 {
@@ -61,4 +73,12 @@ div {
 
 body {
 	background-image: url('dark_wood.png');
+	opacity: 0.5;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	background-color: #FFBC00;
+	border: 2px solid black;
 }
